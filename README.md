@@ -26,7 +26,7 @@ This project provides a set of tools to fetch, parse, and format sports match da
 
 ### Configuration
 
-The project requires configuration of endpoint URLs in application.properties:
+The project requires configuration of endpoint URLs in `application.properties`:
 * Application properties:
    ```sh
    leon.bet.link=<base-url>
@@ -40,12 +40,12 @@ The project's main functionality revolves around fetching and parsing sports mat
 * Parsing Data: Fetched data is parsed into structured objects (LeagueDTO, MatchDTO, etc.).
 * Formatting and Output: Parsed data is formatted into a readable format and printed to the console.
 
-To initiate the data fetching and parsing process, run the LeonParser.getBettingData() method, which orchestrates the fetching, parsing, and formatting of the data.
+To initiate the data fetching and parsing process, run the `LeonParser.getBettingData()` method, which orchestrates the fetching, parsing, and formatting of the data.
 
 ### Result
 
 Below is the result of the image from the console with the data in the correct form:
 ![Screenshot from the console](https://github.com/grmskyi/grmskyi-leon-parser/blob/main/scr1.png)
 
-I also attach a .txt file with all the data after validation:
+I also attach a `.txt` file with all the data after validation:
 ![TXT file with data](https://github.com/grmskyi/grmskyi-leon-parser/blob/main/result.txt)
