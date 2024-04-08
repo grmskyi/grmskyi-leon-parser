@@ -4,7 +4,7 @@ This project provides a set of tools to fetch, parse, and format sports match da
 
 ## Features
 
-- Fetch sports match data asynchronously using Spring's `RestTemplate`.
+- Fetch sports match data using Spring's `RestTemplate`.
 - Parse JSON responses into Java objects with Jackson.
 - Format and print match data, including markets and odds, to the console.
 
@@ -36,7 +36,7 @@ The project requires configuration of endpoint URLs in `application.properties`:
 ### Usage
 The project's main functionality revolves around fetching and parsing sports match data:
 
-* Fetching Data: Data is fetched asynchronously from the configured endpoints.
+* Fetching Data: Data is fetched from the configured endpoints.
 * Parsing Data: Fetched data is parsed into structured objects (LeagueDTO, MatchDTO, etc.).
 * Formatting and Output: Parsed data is formatted into a readable format and printed to the console.
 
