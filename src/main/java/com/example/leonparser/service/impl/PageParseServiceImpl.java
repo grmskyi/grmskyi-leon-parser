@@ -110,9 +110,7 @@ public class PageParseServiceImpl implements PageParseService {
     /**
      * Parses the first match for each league provided in a list of {@link LeagueDTO} objects. This method
      * utilizes Java Streams to efficiently map each {@link LeagueDTO} to a {@link MatchDTO} by fetching
-     * the first match for each league. The operation is performed in parallel to improve performance,
-     * especially beneficial when the number of leagues is large or if fetching the match details is
-     * time-consuming.
+     * the first match for each league.
      *
      * @param leagueDTOS A list of {@link LeagueDTO} objects representing the leagues to fetch the first match for.
      * @return A list of {@link MatchDTO} objects, each representing the first match of the corresponding league.
