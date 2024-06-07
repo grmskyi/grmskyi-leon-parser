@@ -1,4 +1,4 @@
-package com.example.leonparser.dto.pojos;
+package com.example.leonparser.pojos;
 
 import lombok.Data;
 

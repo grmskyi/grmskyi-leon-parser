@@ -7,6 +7,7 @@ import com.example.leonparser.dto.MatchDTO;
 import com.example.leonparser.dto.RunnerDTO;
 import com.example.leonparser.dto.pojos.*;
 import com.example.leonparser.enums.Sports;
+import com.example.leonparser.pojos.*;
 import com.example.leonparser.service.PageParseService;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
